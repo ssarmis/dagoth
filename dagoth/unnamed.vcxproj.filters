@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{9ee78ebc-7627-4419-8b2c-d6332e47c246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\assets">
+      <UniqueIdentifier>{26fc5b84-add5-435e-a47d-783fddb8bcab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\base">
+      <UniqueIdentifier>{0ad7a54b-0096-4f0a-803c-0e4917206180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\components">
+      <UniqueIdentifier>{bd84fc56-563d-4dfe-969a-8891746cdf0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\io">
+      <UniqueIdentifier>{272f3efb-2a11-4e0d-9711-f4d6c9d717dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\rendering">
+      <UniqueIdentifier>{ed6ed92f-0b42-453d-b011-dd571987719f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\scene">
+      <UniqueIdentifier>{f4d30711-19f5-4b03-b7fc-f39ae590ebbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\game_objects">
+      <UniqueIdentifier>{1ff51223-affd-4b9d-8806-0b735959480e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="global_assets.cpp">
+      <Filter>Source Files\engine\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_layer.cpp">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.hpp">
+      <Filter>Source Files\engine\base</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files\engine\io</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="global_settings.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="tile_texturer.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="unnamed.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files\engine\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="rigidbody_component.cpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_rendering_component.cpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="wandering_AI_component.cpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="input_movement_component.cpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_component.cpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>Source Files\engine\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Source Files\engine\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\engine\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie.cpp">
+      <Filter>Source Files\engine\game_objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="transform.hpp">
+      <Filter>Source Files\engine\base</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.hpp">
+      <Filter>Source Files\engine\base</Filter>
+    </ClInclude>
+    <ClInclude Include="global_assets.hpp">
+      <Filter>Source Files\engine\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_layer.h">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_texturer.hpp">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.hpp">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_render_object_generator.hpp">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Source Files\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="input.hpp">
+      <Filter>Source Files\engine\io</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_container.hpp">
+      <Filter>Source Files\engine\base</Filter>
+    </ClInclude>
+    <ClInclude Include="component.hpp">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.hpp">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="behaviour.hpp">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_shooting_behaviour.hpp">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="general.h">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="global_settings.hpp">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.hpp">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="window.hpp">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.hpp">
+      <Filter>Source Files\engine\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="render_component.hpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="rigidbody_component.hpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_rendering_component.hpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="wandering_AI_component.hpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="input_movement_component.hpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="animation_component.hpp">
+      <Filter>Source Files\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.hpp">
+      <Filter>Source Files\engine\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.hpp">
+      <Filter>Source Files\engine\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="player.hpp">
+      <Filter>Source Files\engine\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="zombie.hpp">
+      <Filter>Source Files\engine\game_objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
